@@ -149,7 +149,7 @@ canvas {
     -webkit-appearance: none;
     border: none;
     outline: none !important;
-    background-color: var(--thm-primary);
+    background-color: rgb(73, 197, 250);
     color: var(--thm-base);
     font-size: 14px;
     font-weight: 600;
@@ -169,7 +169,7 @@ canvas {
     left: 0;
     right: 0;
     height: 100%;
-    background-color: var(--thm-black);
+    background-color: rgb(73, 197, 250);
     transition-delay: .1s;
     transition-timing-function: ease-in-out;
     transition-duration: .5s;
@@ -514,7 +514,7 @@ canvas {
     display: flex;
     justify-content: center; /* Center the icons horizontally */
     align-items: center;
-    padding: 20px;
+    padding: 27px;
   }
   
   .main-menu-wrapper__right a {
@@ -818,14 +818,14 @@ canvas {
 .stricky-header .main-menu__list>li.current>a,
 .stricky-header .main-menu__list>li:hover>a {
     color: var(--thm-black);
-    text-shadow: 0 0 1px currentColor;
+    text-shadow: 0 0 1px currentColor;   
 }
 
 .main-menu .main-menu__list>li.current>a::before,
 .main-menu .main-menu__list>li:hover>a::before,
 .stricky-header .main-menu__list>li.current>a::before,
 .stricky-header .main-menu__list>li:hover>a::before {
-    transform: scale(1) translateY(-50%);
+    /* transform: scale(1) translateY(-50%); */
 }
 
 .main-menu .main-menu__list>li.current>a::before {
@@ -3267,7 +3267,7 @@ canvas {
     width: 100%;
     background-color: var(--thm-extra);
     border-radius: var(--thm-bdr-radius);
-    margin: 0 auto;
+    margin: 85px auto;
     z-index: 1;
 }
 
@@ -3291,7 +3291,7 @@ canvas {
     position: relative;
     display: block;
     text-align: center;
-    padding: 108px 0 120px;
+    padding: 40px 0 120px;
 }
 
 .cta-one__sub-title {
@@ -3347,7 +3347,7 @@ canvas {
 .site-footer__top-inner {
     position: relative;
     display: block;
-    padding: 160px 80px 20px 80px;
+    padding: 50px 80px 20px 80px;
     z-index: 1;
 }
 
